@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: bookstore-api
 spec:
-  replicas: 6
+  replicas: 5
   selector:
     matchLabels:
       app: bookstore-api
